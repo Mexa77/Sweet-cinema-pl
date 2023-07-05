@@ -1,0 +1,565 @@
+
+<script>
+	var promoBonus = 'HAPPY2023';
+	var services = {"option6":{"name":"\u0048\u006f\u006f\u006b\u0061\u0068","price":261.59},"option5":{"name":"\u0050\u0069\u007a\u007a\u0061\u0020\u0034\u0030\u0063\u006d","price":214},"option4":{"name":"\u0044\u0069\u006e\u006e\u0065\u0072\u0020\u0066\u006f\u0072\u0020\u0074\u0077\u006f","price":285},"option3":{"name":"\u0046\u006f\u006e\u0064\u0075\u0065","price":214},"option2":{"name":"\u0043\u0068\u0061\u006d\u0070\u0061\u0067\u006e\u0065 Francesco Cimetta 0.7","price":261},"option1":{"name":"\u0052\u006f\u0073\u0065\u0020\u0070\u0065\u0074\u0061\u006c\u0073\u0020\u0061\u006e\u0064\u0020\u0063\u0061\u006e\u0064\u006c\u0065\u0073","price":166},"love1":{"name":"\u0052\u006f\u006d\u0061\u006e\u0074\u0069\u0063\u0020\u0064\u0061\u0074\u0065\u0020\u0022\u0053\u0075\u0072\u0070\u0072\u0069\u0073\u0065\u0022","price":1085},"love2":{"name":"\u0052\u006f\u006d\u0061\u006e\u0074\u0069\u0063\u0020\u0064\u0061\u0074\u0065\u0020\u0022\u0045\u0076\u0065\u006e\u0069\u006e\u0067\u0020\u006f\u0066\u0020\u006c\u006f\u0076\u0065\u0022","price":1610},"love3":{"name":"\u0052\u006f\u006d\u0061\u006e\u0074\u0069\u0063\u0020\u0064\u0061\u0074\u0065\u0020\u0022\u0044\u0061\u0074\u0065\u0020\u006f\u006e\u0020\u0074\u0068\u0065\u0020\u0073\u0074\u0061\u0072\u0073\u0022","price":2067},"party1":{"name":"\u0022\u0041\u006c\u006c\u0020\u006d\u0069\u006e\u0065\u0022","price":1310},"party2":{"name":"\u0022\u0041\u006c\u006c\u0020\u0059\u006f\u0075\u0020\u004e\u0065\u0065\u0064\u0022","price":1600},"party3":{"name":"\u0022\u0041\u006c\u006c\u0020\u0061\u0074\u0020\u006f\u006e\u0063\u0065\u0022","price":530}};
+</script>			<!DOCTYPE html>
+			<html lang="en">
+			
+<!-- Mirrored from goldenfilm.ru/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 08 Mar 2020 22:07:17 GMT -->
+<head>
+				<title>Soukromé kino «CINEMA-CZ»</title>
+				<link rel="shortcut icon" href="log.ico" />
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+				<link rel="stylesheet" href="css/bootstrap.min.css">
+				<link rel="stylesheet" href="style.css">
+				<link rel="stylesheet" href="slick.css">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+				<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+				<!-- NotyJS -->
+				<link href="css/noty.min.css" rel="stylesheet">
+				<link href="css/themes/bootstrap-v4.css" rel="stylesheet">
+				<script src="//code.tidio.co/6ixnb7ehbcnspjnlum94dsxjkosl3pqf.js" async></script>				<link href="css/custom.css" rel="stylesheet">
+			</head>
+			<body>
+
+				<div class="menubg"></div>
+				<nav class="mobile-menu">
+					<ul>
+						<li><a href="#price">Naše haly</a></li>
+						<li><a href="#offers-dual">Pro dva</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#contacts">Kontakty</a></li>
+						
+					</ul>
+				</nav>
+				<header class="header ">
+					<div class="container">
+						<div class="flex">
+							
+							<ul>
+								<li><a href="/#price">Naše haly</a></li>
+								<li><a href="/#offers-dual">Pro dva</a></li>
+								<li><a href="/#faq">FAQ</a></li>
+								<li><a href="/#Kontakty">Kontakty</a></li>
+
+							</ul>
+							<div class="phone">
+								<span>Sun-Thu:</span> 12:00-06:00<br/>
+								<span>Fri-Sat:</span> nepřetržitě
+							</div>
+							<div class="menu-button"><i class="fa fa-bars"></i></div>
+						</div>
+						<div class="name" style="margin-top: 8rem;">
+							Soukromé kino<br/>«CINEMA-CZ»
+						</div>
+						<p>Vaše osobní kino</p>
+					</div>
+				</header>
+				<div class="advantages">
+					<div class="container">
+						<div class="name">
+							Zábava na <span>jakoukoli chuť</span>
+						</div>
+						<div class="flex">
+							<div class="item">
+								<span>Sledování filmů </span>
+								Haly s kapacitou <br/>od 2 do 50 osob
+							</div>
+							<div class="item">
+								<span>Zpívání v karaoke</span>
+								Haly jsou vybaveny <br/>karaoke systém
+							</div>
+							<div class="item">
+								<span>Hrajte na konzoli</span>
+								Fotbal, závody, střílečky <br/>a více než 25 her.
+							</div>
+							<div class="item last">
+								<span>Přijďte s jídlem</span>
+								Jakékoli jídlo, nápoje a alkohol <br/>si můžete vzít s sebou <br/>zdarma
+							</div>
+						</div>
+					</div>
+				</div>
+			
+<div class="concept">
+	<div class="container">
+		<div class="content">
+			<div class="name">
+				Koncept <span>Soukromé kino</span>
+			</div>
+			Soukromé kino "CINEMA-CZ" - nejlepší způsob, jak získat soukromí tam, kde to obvykle není možné. Hodinový pronájem kina je skvělou volbou pro romantickou schůzku, setkání přátel, oslavu narozenin nebo večírek. Platíte pouze za pronájem sálu. Chcete si přinést vlastní jídlo? Prosím. Alkohol? Žádný problém. Nemáme žádné skryté poplatky ani poplatky za korkovné. Všechny ceny na webových stránkách jsou konečné. Vyberte si film z naší obrovské knihovny a relaxujte.
+		</div>
+	</div>
+</div>
+
+<div class="rooms" id="price">
+	<div class="container">
+		<div class="name">
+			12 sálů 
+			<span>podle vašeho výběru</span>
+		</div>
+		<div class="list">
+			<div class="item">
+				<div class="image">
+					<img src="img/room1.jpg">
+					<div class="text">
+						<span>Hala 1</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Ideální pro narozeninovou oslavu nebo rozlučku se svobodou. Jsme síť Soukromé kinosály v Německu, máme již 12 hal pro každý vkus a velikost.</p>
+				<p>Prostorná Hala č. 1 byla vytvořena pro velké a veselé společnosti a pojme až 15 osob (plocha 18 m2). Páry si ji rády pronajímají na netradiční schůzky =)</p>
+				<p>Chcete uspořádat nezapomenutelnou dovolenou nebo překvapení pro dívku? Tento pokoj je pro vaše plány ideální. </p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room2.jpg">
+					<div class="text">
+						<span>Hala 2</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Hala č. 2 může ubytovat až 15 osob (plocha 18 m2) - je ideální pro velkou skupinu přátel.</p>
+					<p>Milenci ji využívají jako místo pro sledování romantických filmů na velké obrazovce se skvělým zvukem.</p>
+					<p>Kde si zazpívat v karaoke bez fronty? Pryč s rozpaky! V místnosti jste jen vy a vaši blízcí. Profesionální karaoke a desetitisíce písní z internetu vám umožní zazpívat si, cokoli chcete!</p>
+					<p>Sledujte film, vyberte si film pro každý vkus a žánr, sledujte online a zastavte film, aniž byste někoho rušili. Zvláště za tak příznivé ceny.</p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room3.jpg">
+					<div class="text">
+						<span>Hala 3</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Jak uspořádat dovolenou a nepřijít na mizinu? Filmy, karaoke, stolní a videohry a hlavně vlastní jídlo a pití s sebou?</p>
+					<p>Pak je Hala č. 3 v Soukromém kině tou nejlepší volbou! Pojme až 20 osob (plocha 23 m2), což vám umožní bavit se naplno =)</p>
+					<p>Objednejte si mléčné koktejly, popcorn a další chutné pochoutky. Vlastní jídlo, nápoje a alkohol si můžete přinést zdarma. </p>
+					<p>Halu vyzdobíme balónky a pustíme světelnou hudbu, abyste se vy i vaši hosté dobře bavili!</p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room4.jpg">
+					<div class="text">
+						<span>Hala 4</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Hledáte kino Pro dva? Pak je tato místnost určena právě vám!</p>
+					<p>Hala č. 4 byla vytvořena Pro dva (plocha 6 m2), nikdo vás nebude rušit - to je železné pravidlo našeho Soukromého kina!</p>
+					<p>Uspořádejte romantickou večeři v kině. Máme nabídku 5 partnerských restaurací. </p>
+					<p>Romantická výzdoba Haly nenechá vaši drahou polovičku lhostejnou!</p>
+					<p>Pokud jste zvyklí na překvapení, doporučujeme zvolit naši speciální nabídku! </p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room5.jpg">
+					<div class="text">
+						<span>Hala 5</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Jediný pohled na Halu 5 (VIP) stačí, abyste pochopili, že máme nejlepší kino!</p>
+					<p>Pokoj v podkroví Pro dva. Individuální důstojnost. uzel v Hale. A samozřejmě kino na měkkém gauči. </p>
+					<p>Buďte nejlepší pro své blízké!</p>
+					<p>Naši recepční vám pomohou připravit romantickou a zapůsobit.</p>
+					<p>Mimochodem, připravujeme skvělé koktejly! Hala plocha m2</p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room6.jpg">
+					<div class="text">
+						<span>Hala 6</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Hala číslo 6 - malá s plazmou našeho kina s pohovkami.</p>
+					<p>V uvolněné atmosféře můžete sledovat svůj oblíbený film, hrát stolní hry a zažít spoustu nezapomenutelných emocí.</p>
+					<p>Je určen pro 2 osoby (plocha 9 m2) a je ideální pro romantické schůzky.</p>
+					<p>Objednejte si jídlo z restaurace přímo do Haly rychleji než v restauraci a užijte si dovolenou!</p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room7.jpg">
+					<div class="text">
+						<span>Hala 7</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Skvělé místo pro romantické rande.</p>
+					<p>Pracujeme na principu antikavárny. Platba za čas a počet osob. </p>
+					<p>Hala plocha 6 m2</p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room8.jpg">
+					<div class="text">
+						<span>Hala 8</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Máte rádi romantické schůzky? Máte rádi rande na střeše?</p>
+					<p>Pořádáme romantické schůzky. </p>
+					<p>Pokud také hledáte noční kina, můžete si u nás rezervovat Halu až do rána.</p>
+					<p>Objednejte si pizzu a odpočiňte si v centru města - to vše je u nás možné.</p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room9.jpg">
+					<div class="text">
+						<span>Hala 9</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Hledáte dobré kino?</p>
+					<p>Prostorná Hala č. 9 byla vytvořena pro velké a veselé společnosti a pojme až 25 osob (plocha 23 m2).</p>
+					<p>Jedná se o místnost, kde můžete dělat hluk nepřetržitě. </p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room10.jpg">
+					<div class="text">
+						<span>Hala 10</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Kdysi tu bylo kasino. A my jsme se rozhodli zachovat ducha peněz a vzrušení. </p>
+					<p>Pokud hledáte kino pro sledování filmů, je tento pokoj ideální. Velká obrazovka, prostorový zvuk, tisíce filmů online. </p>
+					<p> Hala č. 10 byla vytvořena pro malé a veselé společnosti a pojme až 10 osob (plocha 17 m2). Pro pohodlí je velmi oblíbený i pro páry. </p>
+					<p>Sbírejte s přáteli a hrajte skutečnou mafii a další deskové hry. </p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room11.jpg">
+					<div class="text">
+						<span>Hala 11</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Hledáte osobní kino s pohovkami?</p>
+					<p>"CINEMA-CZ" - první Soukromé kino Pro dva. Známe přání našich hostů a děláme vše pro lepší dovolenou. </p>
+					<p>Hala č. 11 je vyrobena ve stylu divadla s velmi měkkými a pohodlnými pohovkami. Pojme až 6 osob (plocha 15 m2). Právě tady se splní ty nejlepší představy o rande. </p>
+				</div>
+			</div><div class="item">
+				<div class="image">
+					<img src="img/room12.jpg">
+					<div class="text">
+						<span>Hala 12</span>
+					</div>
+				</div>
+				<div class="content">
+					<p>Hledáte místo, kde si můžete zazpívat karaoke bez fronty?</p>
+					<p>Soukromé kino s karaoke je skvělou alternativou ke karaoke kabinkám. Zpívejte do profesionálního mikrofonu, jak jen chcete. </p>
+					<p>Prostorná hala č. 12 byla vytvořena pro velké společnosti a pojme až 20 osob (plocha 24 m2).</p>
+					<p>Chcete si uspořádat dovolenou a strávit spolu alespoň celou noc? Pak se obraťte na nás!</p>
+				</div>
+			</div>		</div>
+	</div>
+</div>
+<div class="offers" id="offers-dual">
+	<div class="container">
+		<div class="name">
+				Nabídky <span>Pro dva</span>
+			</div>
+			<p>Soukromé kino Pro dva: <br/>řešení pro dokonalé rande</p>
+			<div class="flex">
+				<div class="item">
+					<div class="image"><img src="img/offer1.jpg"></div>
+					<div class="content">
+						<div class="n">Romantické rande "Překvapení"</div>
+						<ul>
+							<li>Předběžný výběr oblíbeného filmu nebo hudby</li>
+							<li>Popcorn zdarma</li>
+							<li>Horké nápoje: vařený čaj nebo káva (volitelně)</li>
+						</ul>
+						<div class="time">Doba trvání: 3 hodiny</div>
+						<div class="price">1085 Kč</div>
+						<button id="love1" class="booking">PROVÉST REZERVACI</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="image"><img src="img/offer2.jpg"></div>
+					<div class="content">
+						<div class="n">Romantické datum "Standardní"</div>
+						<ul>
+							<li>Předběžný výběr oblíbeného filmu nebo hudby</li>
+							<li>Popcorn zdarma</li>
+							<li>Lahodné dezerty: čokoládové fondue s ovocem</li>
+							<li>Horké nápoje: vařený čaj nebo káva (volitelně)</li>
+							<li>Vodní dýmka na míse s ovocem</li>
+						</ul>
+						<div class="time">Doba trvání: 3 hodiny</div>
+						<div class="price">1610 Kč</div>
+						<button id="love2" class="booking">PROVÉST REZERVACI</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="image"><img src="img/offer3.jpg"></div>
+					<div class="content">
+						<div class="n">Romantické rande "Rande na hvězdách"</div>
+						<ul>
+							<li>Romantická výzdoba Haly okvětními lístky růží a svíčkami</li>
+							<li>Večeře Pro dva (italská, japonská, čínská kuchyně, na výběr)</li>
+							<li>Čokoládové fondue s ovocem</li>
+							<li>Horké nápoje: vařený čaj nebo káva (volitelně)</li>
+							<li>Vodní dýmka na míse s ovocem</li>
+							<li>Neomezené množství alkoholu</li>
+						</ul>
+						<div class="time">Doba trvání: 4 hodiny</div>
+						<div class="price">2067 Kč</div>
+						<button id="love3" class="booking">PROVÉST REZERVACI</button>
+					</div>
+				</div>
+			</div>		</div>
+</div>
+
+					<div class="faq" id="faq">
+						<div class="container">
+							<div class="name">
+								FAQ <span>OTÁZKY</span>
+							</div>
+							<div class="top-text">
+								Neshromáždili jsme banální seznam otázek, ale pokusili jsme se odpovědět na ty, které naše návštěvníky opravdu vzrušují.
+							</div>
+							<div class="item">
+								<div class="n"><span>A co soukromí? Jsou vaše pokoje pod dohledem kamer?</span></div>
+								<div class="text">
+									Žádný z objektů Naše haly není vybaven kamerovým systémem. A naši manažeři se se všemi hosty setkávají vždy jako poprvé. Dobře si uvědomujeme, jak je tato problematika důležitá, a proto jí věnujeme mimořádnou pozornost.
+								</div>
+							</div>
+							<div class="item">
+								<div class="n"><span>Opravdu si s sebou mohu vzít nějaké jídlo? Existují nějaké další poplatky nebo skryté poplatky? Pokuty?</span></div>
+								<div class="text">
+									Jídlo a nápoje si můžete přinést vlastní nebo si je objednat v některé z restaurací/kaváren v blízkosti Soukromého kina. Přímo u nás nabízíme fondue, občerstvení, popcorn, nápoje, led. Zajistíme prostření stolu, poskytneme veškeré potřebné nádobí (talíře, sklenice, příbory atd.).
+								</div>
+							</div>
+							<div class="item">
+								<div class="n"><span>Co poskytuje věrnostní karta? Jak ji získat?</span></div>
+								<div class="text">
+									Pokud se rozhodujete, kam vyrazit s přáteli, doporučujeme vám navštívit naše multikino častěji. Vaše návštěvy jsou zaznamenávány. Když součet všech zaplacených hodin dosáhne 500 EUR, vystavíme vám stálou kartu herce. Na ni získáte 10% slevu na pronájem a dva libovolné nealkoholické nápoje jako dárek. Nasbírejte 1500 EUR - vystavíme vám stálou režisérskou kartu. Na ni bude sleva 15 %, jako dárek jsou dva libovolné nealkoholické nápoje a výběr fondue / ovocného talíře / čokolády / popcornu. Nasbírejte 60 000 EUR - staňte se majitelem permanentní karty producenta s 25% slevou na pronájem Haly. Jako dárek - dva nealkoholické nápoje, fondue / ovocný talíř / čokoláda / popcorn.
+								</div>
+							</div>
+							<div class="item">
+								<div class="n"><span>Jak často se pokoje uklízejí?</span></div>
+								<div class="text">
+									Po každém hostovi uklidíme. Než předchozí návštěvníci odejdou, zkontrolujeme, zda je vše v pořádku se spotřebiči, vybavením a nábytkem. Poté připravíme prostory pro další společnost. Vezměte prosím na vědomí, že ve vámi objednaných hodinách je zahrnuto 10 minut na to, aby náš zaměstnanec dal Halu do pořádku.
+								</div>
+							</div>
+							<div class="item">
+								<div class="n active"><span>Jaké filmy můžete sledovat?</span></div>
+								<div class="text" style="display: block;">
+									Pokud hledáte místo, kde můžete sledovat filmy na velkém plátně bez cizích lidí, jsme pro vás ideální volbou. Naše databáze obsahuje naprosto všechny filmy, dokonce i ty, které jsou právě v pokladnách kin.
+								</div>
+							</div>
+							<!--<div class="item">-->
+							<!--	<div class="n"><span>Какие фильмы у вас можно посмотреть?</span></div>-->
+							<!--	<div class="text">-->
+							<!--		Если ищете, где смотреть кино на большом экране без посторонних – анти кинотеатр идеальный для вас вариант. В нашей базе есть все фильмы, кроме тех, что в данный момент идут в прокате. Как только новинка появляется в онлайн-кинотеатрах, она становится доступна и у нас. Также вы можете принести свою запись на флешке. -->
+							<!--	</div>-->
+							<!--</div>-->
+						</div>
+					</div>
+					
+<!-- Smartsupp Live Chat script -->
+
+				</body>
+
+				<!-- Модальное окно -->
+				<div class="modal fade" id="map-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel" style="color: #000000;">Naše pobočky</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+								</div>
+						</div>
+						</div>
+				</div>
+
+				<!-- Бронь -->
+				<div class="popup">
+					<div class="window">
+						<input type="hidden" id="tag" value="">
+						<input type="hidden" id="site" value="moonlycinema.ru">
+						<p class="modal-send" style="margin-bottom: 0;">Rezervujete si<br><i><span id="BookingOrder"></span></i></p><br>
+						<a class="close"><i class="fas fa-times"></i></a>
+
+						<div class="form-group">
+							<label for="purchaserName" style="color: #000000;">CELÉ JMÉNO.</label>
+							<input class="form-control" minlength="2" id="purchaserName" required="">
+						</div>
+
+						<div class="form-group">
+							<label for="purchaserNumber" style="color: #000000;">Phone nubmer</label>
+							<input type="tel" minlength="15" class="form-control" id="purchaserNumber" required="">
+						</div>
+						<div class="form-group">
+							<label for="purchaserMail" style="color: #000000;">E-mail</label>
+							<input type="mail" minlength="15" class="form-control" id="purchaserMail" required="">
+						</div>						
+						<div class="form-group">
+							<label for="purchaserCity" style="color: #000000;">Město</label>
+							<select class="form-control" id="purchaserCity">
+                                    
+<option>Jánská 453/9, 602 00 Brno-střed</option>															</select>
+						</div>
+
+						<div class="form-group">
+							<label for="purchaserHala" style="color: #000000;">Hala</label>
+							<select class="form-control" id="purchaserHala">
+								<option style="color: #3813C2;">Hala №1 (Pro společnosti)</option>
+								<option style="color: #3813C2;">Hala №2 (Pro společnosti)</option>
+								<option style="color: #3813C2;">Hala №3 (Pro společnosti)</option>
+								<option style="color: #F426A9;">Hala №4 (Pro dva)</option>
+								<option style="color: #F426A9;">Hala №5 (Pro dva)</option>
+								<option style="color: #F426A9;">Hala №6 (Pro dva)</option>
+								<option style="color: #F426A9;">Hala №7 (Pro dva)</option>
+								<option style="color: #F426A9;">Hala №8 (Pro dva)</option>
+								<option style="color: #3813C2;">Hala №9 (Pro společnosti)</option>
+								<option style="color: #3813C2;">Hala №10 (Pro společnosti)</option>
+								<option style="color: #3813C2;">Hala №11 (Pro společnosti)</option>
+								<option style="color: #3813C2;">Hala №12 (Pro společnosti)</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label style="color: #000000;">Datum sezení</label>
+							<input type="date" id="purchaserDate" class="form-control" min="2023-07-05" value="2023-07-05">
+						</div>
+
+						<div class="form-group">
+							<label for="purchaserTime" style="color: #000000;">Čas sezení</label>
+							<select class="form-control" id="purchaserTime">
+								<option>12:00</option>
+								<option>13:00</option>
+								<option>14:00</option>
+								<option>15:00</option>
+								<option>16:00</option>
+								<option>17:00</option>
+								<option>18:00</option>
+								<option>19:00</option>
+								<option>20:00</option>
+								<option>21:00</option>
+								<option>22:00</option>
+								<option>23:00</option>
+								<option>00:00</option>
+								<option>01:00</option>
+								<option>02:00</option>
+								<option>03:00</option>
+							</select>
+						</div>
+
+						<hr>
+						<div class="form-group">
+							<label class="text-black"><b>Další služby</b></label>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="option1">
+								<label class="custom-control-label text-black" for="option1">Okvětní lístky růží a svíčky (166 Kč)</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="option2">
+								<label class="custom-control-label text-black" for="option2">Šampaňské Francesco Cimetta 0.7 (261 Kč)</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="option3">
+								<label class="custom-control-label text-black" for="option3">Fondue (214 Kč)</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="option4">
+								<label class="custom-control-label text-black" for="option4">Večeře Pro dva (285Kč)</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="option5">
+								<label class="custom-control-label text-black" for="option5">Pizza 40см (214 Kč)</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="option6">
+								<label class="custom-control-label text-black" for="option6">Vodní dýmka (261.59 Kč)</label>
+							</div>
+						</div>
+						<hr>
+
+						<div class="form-group">
+							<label style="color: #000; font-size: 20px;">Celkem: <b><span id="totalPrice">0</span> Kč.</b></label>
+						</div>
+
+						<button id="BookingSubmit" type="submit" class="submit" formnovalidate="">PROVÉST REZERVACI</button>
+						<p class="privacy text-black mt-3">* Vaše kontaktní údaje nebudou<br>předány třetím stranám<br>* Můžete to udělat kdykoli<br>vrácení peněz!</p>
+
+					</div>
+				</div>
+<div class="contacts" id="contacts">
+						<div class="container">
+							<div class="name">
+								Kde<span>jsme</span>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="item address-list">
+										<div class="b2">Pracujeme v následujících městech</div>
+                                                
+<div class="b3"><i class="fas fa-map-marker-alt"></i> Jánská 453/9, 602 00 Brno-střed</div>             
+								<span>Sun-Thu:</span> 12:00-06:00<br/>
+								<span>Fri-Sat:</span> nepřetržitě
+										</div>
+										<!--- <button type="button" data-toggle="modal" data-target="#map-1">НА КАРТЕ</button> --->
+									</div>
+								</div>
+							</div>
+						</div>
+<footer class="footer">
+						<div class="container">
+							<div class="content">
+								<ul class="main">
+								<li><a href="/#price">Naše haly</a></li>
+								<li><a href="/#offers-dual">Pro dva</a></li>
+								<li><a href="/#faq">FAQ</a></li>
+								<li><a href="/#Kontakty">Kontakty</a></li>
+						        
+								</ul>
+							</div>
+						</div>
+					</footer>
+
+
+<style>
+.dr {height: 26px; padding-left: 7px; border-radius: 4px; border: 1px solid #ACA4A4; margin-bottom: 13px; width: 100%;}
+.drt {height: 70px; padding: 7px; border-radius: 4px; border: 1px solid #ACA4A4; margin-bottom: 13px; width: 100%;}
+.drr {height: 30px; margin-left: 14px; padding-left: 7px; border-radius: 4px; border: 1px solid #ACA4A4; cursor: pointer; background-color: rgb(241, 127, 3)!important; color: #000!important; }
+.drr:hover {opacity: 0.8; filter: alpha(opacity=80);  -moz-opacity: 0.8;}.resultokno {position: fixed; z-index: 999999;background-color: rgb(1, 153, 255);width: 294px;padding: 10px;left: 50%;margin-left: -147px;border: 1px solid #0d5788;top: 48px;border-radius: 10px;}.zagtext {color: rgb(255, 255, 255)!important; font-size: 20px!important; padding: 9px 0px 14px!important; font-family: Arial!important; }
+#reskod {height: 200px;  width: 600px;}
+.avtorc, .avtorc a {color: #555!important; font-size: 10px!important; font-family: Arial!important;}
+.avtorc {float: right!important;margin-right: 20px!important; font-family: Arial!important;}
+#openokno {cursor: pointer; position: fixed; left: 13%; padding: 7px 17px; background-color: rgb(1, 153, 255); z-index: 9999; border-radius:11px 11px 0px 0px; top:inherit; bottom:0px; width: auto;margin-left: -51px; border: 1px solid #0d5788; font-size: 14px; font-weight: bold; color: rgb(255, 255, 255)!important;}
+#csslefts, .zagtext {margin-left: 14px!important; margin-right: 14px;}
+.resultokno div div {color: #000!important; font-family: Arial!important; font-size: 14px!important;}
+.blockall {width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; opacity: 0.8; filter: alpha(opacity=80); -moz-opacity: 0.8; background: #000; cursor: pointer; z-index: 99999;}
+</style>
+<center 
+<p></p>				
+
+   <style type="text/css">
+      .blink {  animation-name: blinker;  animation-iteration-count: infinite;  animation-timing-function: cubic-bezier(1.0,0,0,1.0);  animation-duration: 2s;  -webkit-animation-name: blinker;  -webkit-animation-iteration-count: infinite;  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);  -webkit-animation-duration: 2s;} @keyframes blinker {  from { opacity: 1.0; }  to { opacity: 0.9; }} @-webkit-keyframes blinker {  from { opacity: 1.0; }  to { opacity: 0.9; }}.parent { position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}</style>
+
+
+   
+
+				<script src="js/jquery.min.js"></script>
+				<script src="js/redirect.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/slick.min.js"></script>
+				<script src="js/common.js?v=127.6.9"></script>
+				<script src="js/imask.js"></script>
+				<script src="js/noty.min.js"></script>
+				<script>
+					Noty.overrideDefaults({
+						progressBar: false,
+						timeout: 3500,
+						theme: 'bootstrap-v4',
+					});
+			</html>
